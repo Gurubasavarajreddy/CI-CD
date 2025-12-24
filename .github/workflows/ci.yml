@@ -1,0 +1,11 @@
+name: Repo Actions Check
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "GitHub Actions is working 🚀"
