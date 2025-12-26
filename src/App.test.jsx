@@ -4,6 +4,6 @@ import App from "./App";
 test("renders Vite + React text", () => {
   render(<App />);
   expect(
-    screen.getByRole("heading", { name: /vite \+ react/i })
+    screen.getByRole("heading", { name: /vitess \+ reactss/i })
   ).toBeInTheDocument();
 });
